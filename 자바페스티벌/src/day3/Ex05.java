@@ -18,8 +18,9 @@ public class Ex05 {
 //		%10 -> 3          3/1 ->3 
 		
 		int calc=0;
-		for(int i = 100000000; i>1; i/=10) {
-			calc += (input % i) / (i/10);
+		for(int i = 100000000; i>0; i/=10) {
+//			calc += (input % i) / (i/10); -- i>1로.. 
+			calc += (input/i) %10;
 		}
 		
 		System.out.println("합은 " + calc + "입니다.");

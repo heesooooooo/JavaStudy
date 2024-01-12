@@ -1,0 +1,32 @@
+package day5;
+
+public class Ex05 {
+
+	public static void main(String[] args) {
+
+		
+		int[] point = {92,32,52,9,81,2,68};
+//		System.out.print("result = [");
+		
+		
+		int min=point[1]-point[0];
+		min = min < 0? min*(-1): min;
+		System.out.println(min);
+		
+		for(int i =0; i<point.length; i++) {
+			for(int j=i+1; j<point.length; j++) {
+				int gap=point[i]-point[j];
+				gap= gap<0 ? -1*gap : gap;
+				if(gap<min) {
+					min=gap;
+				}
+			}
+			
+		}
+		
+		System.out.println(min);
+		
+		
+	}
+
+}
