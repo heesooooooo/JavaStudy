@@ -1,0 +1,10 @@
+package 사;
+
+public class Ex02역별찍기행개수 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

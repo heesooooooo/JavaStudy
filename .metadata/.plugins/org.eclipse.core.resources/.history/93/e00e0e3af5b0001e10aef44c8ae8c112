@@ -1,0 +1,10 @@
+package 통장관리프로그램;
+
+public class BankMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

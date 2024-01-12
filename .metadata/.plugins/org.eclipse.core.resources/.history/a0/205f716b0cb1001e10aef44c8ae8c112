@@ -1,0 +1,18 @@
+package 학생정보관리프로그램;
+
+public class Student {
+
+	private String name;
+	private String number;
+	private int age;
+	private int scoreJava;
+	private int scoreWeb;
+	private int scoreAndroid;
+	
+	
+	
+	
+	
+	
+	
+}

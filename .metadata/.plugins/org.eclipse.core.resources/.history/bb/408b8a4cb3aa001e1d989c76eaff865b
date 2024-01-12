@@ -1,0 +1,25 @@
+package for문;
+
+public class Ex06곱셈누적77 {
+
+	public static void main(String[] args) {
+
+		
+		int total =0; 
+		for(int i = 77; 1>=1 ; i-- ) {
+			
+			total += i*(78-i);
+			System.out.print(total);
+		
+		
+
+	
+		
+		
+		
+		
+		
+		
+	}
+
+}

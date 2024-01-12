@@ -1,0 +1,22 @@
+package 통장관리프로그램;
+
+public class BankMain {
+
+	// 실행공간
+	public static void main(String[] args) {
+		// 1. Bankbook 설계도면을 기반으로 bank1 객체 생성
+		// 자료형 변수명 = new 자료형();
+		Bankbook bank1 = new Bankbook();
+		System.out.println(bank1.money);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package day5;
+
+import java.util.Scanner;
+
+public class Ex02배수 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int[] array = new int[10];
+		for(int i=1; i<11; i++) {
+		System.out.print(i+"번 째 정수 입력>>");
+		array[i] = sc.nextInt();
+		}
+		System.out.print("3의 배수 : ");
+		
+		if(input%3==0) {
+			System.out.print(input+" ");
+		}
+		
+		
+		
+		
+	}
+
+}
