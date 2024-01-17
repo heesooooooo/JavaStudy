@@ -6,13 +6,16 @@ public class Ex01더하기 {
 		// 메소드 사용하기(main영역 안쪽에서 사용)
 		double result = addDouble(4.2, 3.14);
 		System.out.println(result);
-		
+
 		System.out.println(subNum(3,7));
 
 		printHello();
 		printHello();
 		
 	}
+	
+	
+	
 	
 	// 3. "Hello World"를 5번 출력하는 메소드
 	public static void printHello() {

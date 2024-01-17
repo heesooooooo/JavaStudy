@@ -9,7 +9,7 @@ public class Person {
 	
 	
 	
-	// 설계도, 나만의 자료형 설계도면!!
+	// 설계도, 나만의 자료형. 설계도면!!
 	// 1. field(속성, data)
 	// 이름, 나이, 성별
 	String name;
