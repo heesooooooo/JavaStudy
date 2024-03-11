@@ -13,6 +13,7 @@ public class MusicMain {
 
 		// 1. 노래를 재생시키는 도구 생성하기 ---> MP3Player
 		MP3Player mp3 = new MP3Player();
+		
 
 		// 복붙하면 \\두개 늘어나는데 그냥 써도 ㄱㅊ
 		String comPath = "C:\\\\Users\\\\smhrd\\\\Desktop\\\\JavaStudy\\\\Ex0115ArrayList\\\\player\\\\";

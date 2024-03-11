@@ -18,7 +18,8 @@ public class Ex12이중배열세로_출력ij순서 {
 		}
 		}
 		
-		for(int i=0; i<array.length; i++) {   //출력은 i j 순서 바꿔서
+
+		for(int i=0; i<array.length; i++) {   //출력은 i j 순서 바꿔서 가로(1행)먼저..
 		for(int j=0; j<array.length; j++) {
 		System.out.print(array[i][j]+"\t");
 		}

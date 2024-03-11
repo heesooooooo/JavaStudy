@@ -15,8 +15,11 @@ public class GameMain {
 
 		Zelda z = new Zelda();
 		insert(z);
-		// 에러 해결하기
+		// 에러 해결하기 --> extends GameChip으로 상속
 		
+		
+		Dongmul d = new Dongmul();
+		insert(d);
 		
 	}
 	
@@ -24,7 +27,7 @@ public class GameMain {
 	
 	
 	// 게임칩을 끼우는 기능
-	private static void insert(Pokemon game) {
+	private static void insert(GameChip game) {
 		game.gameStart();
 	}
 	

@@ -29,6 +29,7 @@ public class bonus05오름차순 {
 				
 			}
 			
+			
 		}
 		System.out.println(Arrays.toString(array));
 		
